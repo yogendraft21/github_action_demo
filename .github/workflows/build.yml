@@ -3,4 +3,4 @@ jobs :
      first-job:
         runs-on : windows-latest
         steps :
-          -run : node --version
+          run : "node --version"
